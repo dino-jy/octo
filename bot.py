@@ -1,6 +1,6 @@
 import telegram 
 
-from telegram import (Updater, CommandHandler, MessageHandler, Filters)
+from telegram import (Updater, CommandHandler, MessageHandler, filters)
 
 import redis
 import logging
