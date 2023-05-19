@@ -1,5 +1,5 @@
 import telegram
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
+from telegram.ext import Updater, CommandHandler, MessageHandler, filters
 import redis
 import logging
 
@@ -10,7 +10,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 # Telegram bot token 
-BOT_TOKEN = 'YOUR_BOT_TOKEN'
+BOT_TOKEN = '6276398338:AAGmAh2_g8gMc-JS-Lhmif2GVhPzEARpwYQ'
 
 # Redis host and port 
 REDIS_HOST = 'redis-16860.c16.us-east-1-3.ec2.cloud.redislabs.com'
