@@ -1,7 +1,11 @@
-import telegram
-from telegram.ext import Updater, CommandHandler, MessageHandler, filters
+import telegram 
+
+from telegram import (Updater, CommandHandler, MessageHandler, Filters)
+
 import redis
 import logging
+import telegram 
+
 
 # Enable logging
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
