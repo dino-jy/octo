@@ -39,9 +39,11 @@ def start(update, context):
 # Buy, gift and chat command handlers
 # ... 
 
+
 # Error handler  
 def error(update, context):
-   ...
+    ...
+
 
 # Add handlers  
 dispatcher.add_handler(CommandHandler('start', start)) 
