@@ -24,7 +24,7 @@ REDIS_PORT = 16860
 DB_NUM = 0 
 
 # Create the EventHandler and pass it your bot's token.
-updater = Updater(BOT_TOKEN, use_context= True)
+updater = Updater(BOT_TOKEN)
 
 # Get the dispatcher to register handlers
 dispatcher = updater.dispatcher
