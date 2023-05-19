@@ -1,6 +1,6 @@
 from queue import Queue
 import telegram
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
+from telegram.ext import Updater, CommandHandler, MessageHandler, filters
 import redis
 import logging
 
