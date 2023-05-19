@@ -28,16 +28,26 @@ redis_conn = redis.Redis(host=REDIS_HOST, port=REDIS_PORT, db=DB_NUM)
 # Utility functions to get/save user from database
 # ...
 
-# Start command
 def start(update, context):
-    # ...
 
-# Buy, gift and chat command handlers
-# ...
+    # Your code for the start command
 
-# Error handler
+    context.bot.send_message(chat_id=update.effective_chat.id, text="Welcome to the bot!")
+
 def error(update, context):
-    ...
+
+    # Your code to handle errors
+
+    logger.warning('Update "%s" caused error "%s"', update, context.error)
+
+
+
+
+
+
+
+
+
 
 # Add handlers
 dispatcher.add_handler(CommandHandler('start', start))
