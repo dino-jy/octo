@@ -1,6 +1,6 @@
 import logging
 from telegram import Update
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
+from telegram.ext import Updater, CommandHandler, MessageHandler, filters, CallbackContext
 
 # Set your bot token here
 TELEGRAM_BOT_TOKEN = "6276398338:AAGmAh2_g8gMc-JS-Lhmif2GVhPzEARpwYQ"
