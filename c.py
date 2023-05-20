@@ -20,7 +20,7 @@ banned_users = []
 admins = {'6270279846':True, 'ADMIN_2_USER_ID':True}
 
 # Start telegram bot
-updater = Updater(token=bot_token, use_context=True)
+updater = Updater(bot=telegram.Bot(bot_token), use_context=True)
 dp = updater.dispatcher
 
 # Welcome message 
